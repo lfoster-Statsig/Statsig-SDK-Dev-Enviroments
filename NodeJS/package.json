@@ -1,0 +1,19 @@
+{
+  "name": "demo-project",
+  "version": "1.0.0",
+  "description": "Statsig Demo Project",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Logan Foster",
+  "license": "ISC",
+  "dependencies": {
+    "@statsig/js-client": "^3.24.4",
+    "@statsig/session-replay": "^3.24.4",
+    "@statsig/web-analytics": "^3.24.4",
+    "dotenv": "^17.2.2"
+  }
+}
